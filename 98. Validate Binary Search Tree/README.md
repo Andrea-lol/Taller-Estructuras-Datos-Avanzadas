@@ -4,7 +4,7 @@
 
 ## Descripción Y Contexto
 
-Dada la ```bash raíz``` de un árbol binario, determine si es un árbol de búsqueda binario (BST) válido.
+Dada la ``` raíz``` de un árbol binario, determine si es un árbol de búsqueda binario (BST) válido.
 
 Un BST válido se define de la siguiente manera:
 
