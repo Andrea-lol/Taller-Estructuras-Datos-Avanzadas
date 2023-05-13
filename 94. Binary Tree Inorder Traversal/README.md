@@ -8,7 +8,7 @@ Dada la raíz de un árbol binario, devuelve el recorrido en orden de los valore
 
 ## Ejemplos 📋
 
-![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
 
 Ejemplo 1:
 
