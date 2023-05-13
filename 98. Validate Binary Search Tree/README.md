@@ -16,7 +16,7 @@ Un BST válido se define de la siguiente manera:
 
 Ejemplo 1:
 
-![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/98.%20Validate%20Binary%20Search%20Tree/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
 
 ```bash
     $ Input: root = [2,1,3]
@@ -25,7 +25,7 @@ Ejemplo 1:
 
 Ejemplo 2
 
-![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/98.%20Validate%20Binary%20Search%20Tree/img/tree2.jpg "Esta es una imagen de muestra.")
 
 ```bash
     $ Input: root = [5,1,4,null,null,3,6]
