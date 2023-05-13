@@ -40,24 +40,21 @@ Explicación
 
 ## Restricciones ⚠️	
 
-* The number of nodes in the tree will be in the range ```bash
+* El número de nodos en el árbol estará en el rango ```bash
         [1, 1000]. ```
 
 *  ```bash
-    0 <= Node.val <= 5000
-```
+    0 <= Node.val <= 5000 ```
 
-*  ```bash root is a complete binary tree.
+*  ```bash root ``` es un árbol binario completo.
 
-    $ nums contiene valores distintos ordenados en orden ascendente.
-```
+*  ```bash
+    0 <= val <= 5000 ```
 
-```bash
-    $ -10^4 <= objetivo <= 10^4
-```
-
+* Se realizarán como máximo ```bash 10^4 ``` llamadas a ```bash insert ``` y ```bash get_root ```.
+    
 ## LeetCode
-**[35. Search Insert Position]** de la **[LeetCode]**
+**[919. Complete Binary Tree Inserter]** de la **[LeetCode]**
 
-[35. Search Insert Position]: https://leetcode.com/problems/search-insert-position/description/
+[919. Complete Binary Tree Inserter]: https://leetcode.com/problems/complete-binary-tree-inserter/description/
 [LeetCode]: https://leetcode.com
