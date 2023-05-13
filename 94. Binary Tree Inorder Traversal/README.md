@@ -34,8 +34,7 @@ Ejemplo 3:
 * El número de nodos en el árbol está en el rango ```bash
         [0, 100].```
 
-*  ```bash
-    -100 <= Node.val <= 100```
+*  ```bash -100 <= Node.val <= 100 ```
     
 ## LeetCode
 **[94. Binary Tree Inorder Traversal]** de la **[LeetCode]**
