@@ -10,9 +10,9 @@ Diseñe un algoritmo para insertar un nuevo nodo en un árbol binario completo m
 
 ## Implemente la clase CBTInserter
 
-* ***CBTInserter(TreeNode root)*** Inicializa la estructura de datos con la ***raíz*** del árbol binario completo.
-* ***int insert(int v)*** Inserta un ***TreeNode*** en el árbol con el valor ***Node.val == val*** para que el árbol permanezca completo y devuelve el valor del padre del ***TreeNode*** insertado.
-* ***TreeNode get_root()*** Devuelve el nodo raíz del árbol.
+* ```bash CBTInserter(TreeNode root)``` Inicializa la estructura de datos con la ```bash raíz``` del árbol binario completo.
+* ```bash int insert(int v)``` Inserta un ```bash TreeNode``` en el árbol con el valor ```bash Node.val == val``` para que el árbol permanezca completo y devuelve el valor del padre del ```bash TreeNode``` insertado.
+* ```bash TreeNode get_root()``` Devuelve el nodo raíz del árbol.
 
 
 ## Ejemplos 📋
@@ -41,17 +41,17 @@ Explicación
 ## Restricciones ⚠️	
 
 * El número de nodos en el árbol estará en el rango ```bash
-        [1, 1000]. ```
+        [1, 1000].```
 
 *  ```bash
-    0 <= Node.val <= 5000 ```
+    0 <= Node.val <= 5000```
 
-*  ```bash root ``` es un árbol binario completo.
+*  ```bash root``` es un árbol binario completo.
 
 *  ```bash
-    0 <= val <= 5000 ```
+    0 <= val <= 5000```
 
-* Se realizarán como máximo ```bash 10^4 ``` llamadas a ```bash insert ``` y ```bash get_root ```.
+* Se realizarán como máximo ```bash 10^4``` llamadas a ```bash insert``` y ```bash get_root```.
     
 ## LeetCode
 **[919. Complete Binary Tree Inserter]** de la **[LeetCode]**
