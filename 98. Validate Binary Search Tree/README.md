@@ -1,60 +1,48 @@
-# 919. Complete Binary Tree Inserter 💻
+# 98. Validate Binary Search Tree 💻
 
 ![Version 1.0](https://img.shields.io/badge/version-1.0.-blue.svg) 
 
 ## Descripción Y Contexto
 
-Un árbol binario completo es un árbol binario en el que todos los niveles, excepto posiblemente el último, están completamente llenos y todos los nodos están lo más a la izquierda posible.
+Dada la ```bash raíz``` de un árbol binario, determine si es un árbol de búsqueda binario (BST) válido.
 
-Diseñe un algoritmo para insertar un nuevo nodo en un árbol binario completo manteniéndolo completo después de la inserción.
+Un BST válido se define de la siguiente manera:
 
-## Implemente la clase CBTInserter
-
-* ```bash CBTInserter(TreeNode root)``` Inicializa la estructura de datos con la ```bash raíz``` del árbol binario completo.
-* ```bash int insert(int v)``` Inserta un ```bash TreeNode``` en el árbol con el valor ```bash Node.val == val``` para que el árbol permanezca completo y devuelve el valor del padre del ```bash TreeNode``` insertado.
-* ```bash TreeNode get_root()``` Devuelve el nodo raíz del árbol.
-
+* El subárbol izquierdo de un nodo contiene solo nodos con claves menores que la clave del nodo.
+* El subárbol derecho de un nodo contiene solo nodos con claves mayores que la clave del nodo.
+* Los subárboles izquierdo y derecho también deben ser árboles de búsqueda binarios.
 
 ## Ejemplos 📋
 
-![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
-
 Ejemplo 1:
 
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
+
 ```bash
-    $ Input 
-    ["CBTInserter", "insert", "insert", "get_root"]
-    [[[1, 2]], [3], [4], []]
-    $ Output
-    [null, 1, 2, [1, 2, 3, 4]]
+    $ Input: root = [2,1,3]
+    $ Output: true
 ```
 
-Explicación
+Ejemplo 2
+
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
 
 ```bash
-    CBTInserter cBTInserter = new CBTInserter([1, 2]);
-    cBTInserter.insert(3);  // return 1
-    cBTInserter.insert(4);  // return 2
-    cBTInserter.get_root(); // return [1, 2, 3, 4]
+    $ Input: root = [5,1,4,null,null,3,6]
+    $ Output: false
+    $ Explication: El valor del nodo raíz es 5 pero el valor de su hijo derecho es 4.
 ```
 
 ## Restricciones ⚠️	
 
 * El número de nodos en el árbol estará en el rango ```bash
-        [1, 1000].```
+        [1, 10^4].```
 
 *  ```bash
-    0 <= Node.val <= 5000```
+   -231 <= Node.val <= 231 - 1```
 
-*  ```bash root``` es un árbol binario completo.
-
-*  ```bash
-    0 <= val <= 5000```
-
-* Se realizarán como máximo ```bash 10^4``` llamadas a ```bash insert``` y ```bash get_root```.
-    
 ## LeetCode
-**[919. Complete Binary Tree Inserter]** de la **[LeetCode]**
+**[98. Validate Binary Search Tree]** de la **[LeetCode]**
 
-[919. Complete Binary Tree Inserter]: https://leetcode.com/problems/complete-binary-tree-inserter/description/
+[98. Validate Binary Search Tree]: https://leetcode.com/problems/validate-binary-search-tree/
 [LeetCode]: https://leetcode.com
