@@ -10,9 +10,9 @@ Diseñe un algoritmo para insertar un nuevo nodo en un árbol binario completo m
 
 ## Implemente la clase CBTInserter
 
-* CBTInserter(TreeNode root) Inicializa la estructura de datos con la raíz del árbol binario completo.
-* int insert(int v) Inserta un TreeNode en el árbol con el valor Node.val == val para que el árbol permanezca completo y devuelve el valor del padre del TreeNode insertado.
-* TreeNode get_root() Devuelve el nodo raíz del árbol.
+* ***CBTInserter(TreeNode root)*** Inicializa la estructura de datos con la raíz del árbol binario completo.
+* ***int insert(int v)*** Inserta un TreeNode en el árbol con el valor Node.val == val para que el árbol permanezca completo y devuelve el valor del padre del TreeNode insertado.
+* ***TreeNode get_root()*** Devuelve el nodo raíz del árbol.
 
 
 ## Ejemplos 📋
