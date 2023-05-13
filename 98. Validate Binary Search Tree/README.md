@@ -38,8 +38,7 @@ Ejemplo 2
 * El número de nodos en el árbol estará en el rango ```bash
         [1, 10^4].```
 
-*  ```bash
-   -231 <= Node.val <= 231 - 1```
+*  ```bash -231 <= Node.val <= 231 - 1```
 
 ## LeetCode
 **[98. Validate Binary Search Tree]** de la **[LeetCode]**
