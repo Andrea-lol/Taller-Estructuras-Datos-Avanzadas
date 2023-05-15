@@ -6,7 +6,14 @@
 
 Dada la raíz de un árbol binario, devuelve el recorrido en orden de los valores de sus nodos.
 
-## Ejemplos 📋
+## Restricciones ⚠️	
+
+* El número de nodos en el árbol está en el rango ```bash
+        [0, 100].```
+
+*  ```bash -100 <= Node.val <= 100 ```
+
+## Ejemplos Base 📋
 
 ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
 
@@ -29,12 +36,8 @@ Ejemplo 3:
     $ Output: [1]
 ```
 
-## Restricciones ⚠️	
+### Explicación
 
-* El número de nodos en el árbol está en el rango ```bash
-        [0, 100].```
-
-*  ```bash -100 <= Node.val <= 100 ```
     
 ## LeetCode
 **[94. Binary Tree Inorder Traversal]** de la **[LeetCode]**
