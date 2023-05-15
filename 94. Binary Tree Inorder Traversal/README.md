@@ -13,7 +13,7 @@ Dada la raíz de un árbol binario, devuelve el recorrido en orden de los valore
 
 *  ```bash -100 <= Node.val <= 100 ```
 
-## Ejemplos Base 📋
+## Ejemplo 1️⃣
 
 ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
 
@@ -23,20 +23,23 @@ Ejemplo 1:
     $ Input: root = [1,null,2,3]
     $ Output: [1,3,2]
 ```
-Ejemplo 2:
 
-```bash
-    $ Input: root = []
-    $ Output: []
-```
-Ejemplo 3:
+### Explicación 
 
-```bash
-    $ Input: root = [1]
-    $ Output: [1]
-```
+Paso | Imagen | Descripción
+:--: | :--: | -- |
+1 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/lc-treeinsert.jpg "Esta es una imagen de muestra.") | Subir una firma. |
+2 | [Upload pdf file](#upload-pdf-file) | Subir un documento PDF. |
+3 | [Request a signature](#request-signature) | Solicitar una firma. |
+4 | [Sign a document](#sign-document) | Firmar un documento. |
+5 | [Generate pdf file](#generate-pdf-file) | Generar un documento PDF. |
+6 | [List all signature requests approved](#list-signature-requests-approved) | Listar todas las solicitudes de firma aprobadas. |
+7 | [List all signature requests pending](#list-signature-requests-pending) | Listar todas las solicitudes de firma pendientes. |
+8 | [List all of my pending signature requests](#list-pending-signature-requests) | Listar todas mis solicitudes de firma pendientes. |
+9 | [Signature history](#signature-history) | Historial de firmas. |
+10 | [Logout](#logout) | Cerrar sesión. |
 
-### Explicación
+## Ejemplo 2️⃣
 
     
 ## LeetCode
