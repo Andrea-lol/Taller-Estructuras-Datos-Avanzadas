@@ -8,12 +8,12 @@ Se le da una matriz de números enteros "score" de tamaño "n", donde "score[i]"
 
 Los atletas se colocan en función de sus puntajes, donde el atleta del lugar tiene el puntaje más alto, el atleta del lugar tiene el puntaje más alto, y así sucesivamente. La ubicación de cada atleta determina su rango: "1st", "2nd", "2nd"
 
-* El lugar donde se encuentra el rango del atleta .1st"Gold Medal"
-* El lugar donde se encuentra el rango del atleta .2nd"Silver Medal"
-* El lugar donde se encuentra el rango del atleta .3rd"Bronze Medal"
-* Para el puesto del atleta del puesto, su rango es su número de puesto (es decir, el puesto del atleta del puesto es ).4thnthxth"x"
+* El lugar donde se encuentra el rango del atleta. 1st"Gold Medal"
+* El lugar donde se encuentra el rango del atleta. 2nd"Silver Medal"
+* El lugar donde se encuentra el rango del atleta. 3rd"Bronze Medal"
+* Para el puesto del atleta del puesto, su rango es su número de puesto (es decir, el puesto del atleta del puesto es). "4th", "nth", "xth", "x"
 
-Devuelve una matriz answerde tamaño ndonde answer[i]está el rango del atleta.ith
+Devuelve una matriz "answer" de tamaño ndonde "answer[i]" está el rango del atleta. "ith"
 
 ## Ejemplos 📋
 
