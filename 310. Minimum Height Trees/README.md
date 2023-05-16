@@ -1,34 +1,57 @@
-# 94. Binary Tree Inorder Traversal 💻
+# 310. Minimum Height Trees 💻
 
 ![Version 1.0](https://img.shields.io/badge/version-1.0.-blue.svg) 
 
 ## Descripción Y Contexto
 
-Dada la raíz de un árbol binario, devuelve el recorrido en orden de los valores de sus nodos.
+Un árbol es un gráfico no dirigido en el que dos vértices cualesquiera están conectados exactamente por un camino. En otras palabras, cualquier gráfico conexo sin ciclos simples es un árbol.
 
-El código proporcionado busca resolver el problema de recorrer un árbol binario en orden inorder y obtener una lista con los valores de los nodos visitados. El algoritmo utilizado en el código es una solución iterativa que utiliza una pila (stack) para llevar un seguimiento de los nodos visitados. Comienza en la raíz del árbol y explora de manera iterativa los nodos en el siguiente orden: primero el subárbol izquierdo, luego el nodo actual y finalmente el subárbol derecho. Este proceso se repite hasta que se han visitado todos los nodos del árbol. Al finalizar, se devuelve la lista de valores inorder, que representa el recorrido en orden ascendente de los valores de los nodos.
+Dado un árbol de n nodos etiquetados de 0 a n - 1, y una matriz de n - 1 aristas donde aristas[i] = [ai, bi] indica que hay una arista no dirigida entre los dos nodos ai y bi en el árbol , puede elegir cualquier nodo del árbol como raíz. Cuando selecciona un nodo x como raíz, el árbol resultante tiene una altura h. Entre todos los árboles enraizados posibles, aquellos con altura mínima (es decir, min (h)) se denominan árboles de altura mínima (MHT).
+
+Devuelve una lista de las etiquetas raíz de todos los MHT. Puede devolver la respuesta en cualquier orden.
+
+La altura de un árbol con raíces es el número de aristas en el camino descendente más largo entre la raíz y una hoja.
 
 ## Restricciones ⚠️	
 
-* El número de nodos en el árbol está en el rango ```bash
-        [0, 100].```
+* 1 <= n <= 2 * 104
+* edges.length == n - 1
+* 0 <= ai, bi < n
+* ai != bi
+* All the pairs (ai, bi) are distinct.
 
-*  ```bash -100 <= Node.val <= 100 ```
+## Ejemplo 1
 
-## Ejemplo 1️⃣
-
-![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/1.png "Esta es una imagen de muestra.")
+![e1](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/assets/80435721/fa6dcfbf-7791-4d2b-925b-b2c9b1d30fb3)
 
 Ejemplo 1:
 
-```bash
-    $ Input: root = [1,null,2,3]
-    $ Output: [1,3,2]
+```
+Input: n = 4, edges = [[1,0],[1,2],[1,3]]
+Output: [1]
+Explanation: As shown, the height of the tree is 1 when the root is the node with label 1 which is the only MHT.
 ```
 
-### Explicación 
+## Ejemplo 2
 
-En este ejemplo se muestra cómo el algoritmo recorre el árbol en inorden (izquierdo, raíz, derecho), visitando los nodos en el siguiente orden: 1, 3, 2. La pila tiene como objetivo mantener un seguimiento de los nodos visitados y la lista de resultados se va construyendo a medida que se visitan los nodos en el orden correcto.
+![e2](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/assets/80435721/88385071-7eef-4495-8c4a-6d60cb168ee9)
+
+Ejemplo 1:
+
+```
+Input: n = 6, edges = [[3,0],[3,1],[3,2],[3,4],[5,4]]
+Output: [3,4]
+```
+
+### Explicación de la solucion
+
+La clase CBTInserter implementa la funcionalidad requerida. Al inicializar un objeto de esta clase con el nodo raíz del árbol completo, se crea una cola queue que se utiliza para realizar un seguimiento de los nodos que deben ser insertados.
+
+El método insert toma un valor val y lo inserta en el árbol manteniendo la completitud. Primero, se obtiene el primer nodo de la cola queue, que representa el padre del nuevo nodo a insertar. Si el padre no tiene un hijo izquierdo, se inserta el nuevo nodo como su hijo izquierdo. De lo contrario, se inserta como el hijo derecho y se elimina el padre de la cola queue. Luego, se agrega el nuevo nodo a la cola queue y se devuelve el valor del padre.
+
+El método get_root simplemente devuelve el nodo raíz del árbol.
+
+El método populate_queue se utiliza para inicializar la cola queue con los nodos del árbol completo. Recorre el árbol utilizando un recorrido por niveles y agrega los nodos que tienen al menos uno de sus hijos faltantes a la cola queue.
 
 En la siguiente tabla se describe los pasos que se realizan:
 
