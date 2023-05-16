@@ -21,10 +21,11 @@ Diseñe un algoritmo para insertar un nuevo nodo en un árbol binario completo m
 
 Ejemplo 1:
 
-Input: score = [5,4,3,2,1]
-Output: ["Gold Medal","Silver Medal","Bronze Medal","4","5"]
-Explanation: The placements are [1st, 2nd, 3rd, 4th, 5th].
-
+```bash
+   $ Input: score = [5,4,3,2,1]
+   $ Output: ["Gold Medal","Silver Medal","Bronze Medal","4","5"]
+   $ Explanation: The placements are [1st, 2nd, 3rd, 4th, 5th].
+```
 Explicación
 
 ```bash
