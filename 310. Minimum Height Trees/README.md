@@ -59,5 +59,5 @@ Paso | Imagen | Descripción
 ## LeetCode
 **[94. Binary Tree Inorder Traversal]** de la **[LeetCode]**
 
-[94. Binary Tree Inorder Traversal]: https://leetcode.com/problems/binary-tree-inorder-traversal/
+[94. Binary Tree Inorder Traversal]: https://leetcode.com/problems/minimum-height-trees/
 [LeetCode]: https://leetcode.com
