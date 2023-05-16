@@ -4,9 +4,9 @@
 
 ## Descripción Y Contexto
 
-Se le da una matriz de números enteros scorede tamaño n, donde score[i]es el puntaje del atleta en una competencia. Se garantiza que todas las puntuaciones son únicas .ith
+Se le da una matriz de números enteros "score" de tamaño "n", donde "score[i]" es el puntaje del atleta en una competencia. Se garantiza que todas las puntuaciones son únicas. "ith"
 
-Los atletas se colocan en función de sus puntajes, donde el atleta del lugar tiene el puntaje más alto, el atleta del lugar tiene el puntaje más alto, y así sucesivamente. La ubicación de cada atleta determina su rango:1st 2nd 2nd
+Los atletas se colocan en función de sus puntajes, donde el atleta del lugar tiene el puntaje más alto, el atleta del lugar tiene el puntaje más alto, y así sucesivamente. La ubicación de cada atleta determina su rango: "1st", "2nd", "2nd"
 
 * El lugar donde se encuentra el rango del atleta .1st"Gold Medal"
 * El lugar donde se encuentra el rango del atleta .2nd"Silver Medal"
