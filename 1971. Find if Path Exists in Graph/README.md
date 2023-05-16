@@ -17,11 +17,12 @@ Dado "edges" y los enteros "n", "source" y "destination", devuelven "true" si ha
 Ejemplo 1:
 
 ```bash
-    $ Input 
-    ["CBTInserter", "insert", "insert", "get_root"]
-    [[[1, 2]], [3], [4], []]
-    $ Output
-    [null, 1, 2, [1, 2, 3, 4]]
+   Entrada: n = 3, aristas = [[0,1],[1,2],[2,0]], origen = 0, destino = 2 
+   Salida
+   :verdadero
+   Explicación: Hay dos caminos desde el vértice 0 al vértice 2 : 
+   - 0 → 1 → 2 
+   - 0 → 2
 ```
 
 Explicación
