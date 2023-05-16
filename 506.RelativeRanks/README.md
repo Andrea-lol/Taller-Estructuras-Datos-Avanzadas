@@ -17,7 +17,7 @@ Diseñe un algoritmo para insertar un nuevo nodo en un árbol binario completo m
 
 ## Ejemplos 📋
 
-![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
+![Imagen de Evidencia]([https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg](https://data-algo-net-1251805293.file.myqcloud.com/2022/01/20220115085438leetcode-506-1463-1536x864.png) "Esta es una imagen de muestra.")
 
 Ejemplo 1:
 
