@@ -12,9 +12,9 @@ Dado "edges" y los enteros "n", "source" y "destination", devuelven "true" si ha
 
 ## Ejemplos 📋
 
-![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
-
 Ejemplo 1:
+
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
 
 ```bash
    Entrada: n = 3, aristas = [[0,1],[1,2],[2,0]], origen = 0, destino = 2 
@@ -25,6 +25,8 @@ Ejemplo 1:
 ```
 
 Ejemplo 2:
+
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
 
 ```bash
    Entrada: n = 6, aristas = [[0,1],[0,2],[3,5],[5,4],[4,3]], origen = 0, destino = 5 
