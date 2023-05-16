@@ -4,9 +4,13 @@
 
 ## Descripción Y Contexto
 
-Dada la raíz de un árbol binario, devuelve el recorrido en orden de los valores de sus nodos.
+Dados dos árboles binarios originales y clonados y dada una referencia a un objetivo de nodo en el árbol original.
 
-El código proporcionado busca resolver el problema de recorrer un árbol binario en orden inorder y obtener una lista con los valores de los nodos visitados. El algoritmo utilizado en el código es una solución iterativa que utiliza una pila (stack) para llevar un seguimiento de los nodos visitados. Comienza en la raíz del árbol y explora de manera iterativa los nodos en el siguiente orden: primero el subárbol izquierdo, luego el nodo actual y finalmente el subárbol derecho. Este proceso se repite hasta que se han visitado todos los nodos del árbol. Al finalizar, se devuelve la lista de valores inorder, que representa el recorrido en orden ascendente de los valores de los nodos.
+El árbol clonado es una copia del árbol original.
+
+Devuelve una referencia al mismo nodo en el árbol clonado.
+
+Tenga en cuenta que no puede cambiar ninguno de los dos árboles o el nodo de destino y la respuesta debe ser una referencia a un nodo en el árbol clonado.
 
 ## Restricciones ⚠️	
 
