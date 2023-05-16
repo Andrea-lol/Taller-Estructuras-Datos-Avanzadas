@@ -45,14 +45,7 @@ Output: [3,4]
 
 ### Explicación de la solucion
 
-La clase CBTInserter implementa la funcionalidad requerida. Al inicializar un objeto de esta clase con el nodo raíz del árbol completo, se crea una cola queue que se utiliza para realizar un seguimiento de los nodos que deben ser insertados.
-
-El método insert toma un valor val y lo inserta en el árbol manteniendo la completitud. Primero, se obtiene el primer nodo de la cola queue, que representa el padre del nuevo nodo a insertar. Si el padre no tiene un hijo izquierdo, se inserta el nuevo nodo como su hijo izquierdo. De lo contrario, se inserta como el hijo derecho y se elimina el padre de la cola queue. Luego, se agrega el nuevo nodo a la cola queue y se devuelve el valor del padre.
-
-El método get_root simplemente devuelve el nodo raíz del árbol.
-
-El método populate_queue se utiliza para inicializar la cola queue con los nodos del árbol completo. Recorre el árbol utilizando un recorrido por niveles y agrega los nodos que tienen al menos uno de sus hijos faltantes a la cola queue.
-
+La solución utiliza un enfoque de eliminación de hojas iterativo para encontrar las raíces de los árboles de altura mínima. Comienza construyendo un grafo utilizando una lista de adyacencia y calculando los grados de los nodos. Luego, encuentra las hojas iniciales (nodos con un solo vecino) y las elimina iterativamente hasta que queden las raíces
 En la siguiente tabla se describe los pasos que se realizan:
 
 Paso | Imagen | Descripción
