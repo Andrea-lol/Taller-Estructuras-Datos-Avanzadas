@@ -1,4 +1,4 @@
-# 919. Complete Binary Tree Inserter 💻
+# 506. Relative Ranks 💻
 
 ![Version 1.0](https://img.shields.io/badge/version-1.0.-blue.svg) 
 
@@ -40,16 +40,10 @@ Explicación
 
 ## Restricciones ⚠️	
 
-* El número de nodos en el árbol estará en el rango ```bash
-        [1, 1000].```
-
-*  ```bash
-    0 <= Node.val <= 5000```
-
-*  ```bash root``` es un árbol binario completo.
-
-*  ```bash
-    0 <= val <= 5000```
+* n == score.length
+* 1 <= n <= 104
+* 0 <= score[i] <= 106
+* Todos los valores en scoreson únicos .
 
 * Se realizarán como máximo ```bash 10^4``` llamadas a ```bash insert``` y ```bash get_root```.
     
