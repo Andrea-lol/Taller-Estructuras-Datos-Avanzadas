@@ -53,5 +53,5 @@ Explicación
 ## LeetCode
 **[506. Relative Ranks]** de la **[LeetCode]**
 
-[919. Complete Binary Tree Inserter]: [https://leetcode.com/problems/complete-binary-tree-inserter/description/](https://leetcode.com/problems/relative-ranks/description/)
+[506. Relative Ranks]: https://leetcode.com/problems/relative-ranks/description/
 [LeetCode]: https://leetcode.com
