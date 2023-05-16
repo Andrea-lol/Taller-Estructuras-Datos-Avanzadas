@@ -53,7 +53,7 @@ Explicación
 
 * Se realizarán como máximo ```bash 10^4``` llamadas a ```bash insert``` y ```bash get_root```.
 
-#Explicación de la solucion
+##Explicación de la solucion
 
 La clase CBTInserter implementa la funcionalidad requerida. Al inicializar un objeto de esta clase con el nodo raíz del árbol completo, se crea una cola queue que se utiliza para realizar un seguimiento de los nodos que deben ser insertados.
 
