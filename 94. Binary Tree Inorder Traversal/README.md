@@ -32,16 +32,15 @@ En la siguiente tabla se describe los pasos que se realizan:
 
 Paso | Imagen | Descripción
 :--: | :--: | -- |
-1 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/1.png "Esta es una imagen de muestra.") | Se comienza por la raíz (valor 1) para luego dirigirse al lado izquierdo siguiendo el inorden|
-2 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso1.png "Esta es una imagen de muestra.") | Luego de dirigirse al subárbol izquierdo se obtiene que este se encuentra vacío (null) |
-3 | [Request a signature](#request-signature) |Por lo que se agrega el nodo raíz (1) a la pila y nos movemos al subárbol de la derecha, siguiendo el orden (inorden) |
-4 | [Sign a document](#sign-document) | Se vuelve a dirigir al subárbol izquierdo del nodo (2) que se encuentra vacío (null) |
-5 | [Generate pdf file](#generate-pdf-file) | Agregamos el nodo (2) a la pila y se dirige nodo de la derecha (3) |
-6 | [List all signature requests approved](#list-signature-requests-approved) | Volvemos a dirigirnos tanto al lado izquierdo como el derecho del nodo (3) y ambos se encuentran vacios (null), por lo que agregamos el nodo (3) a la pila |
-7 | [List all signature requests pending](#list-signature-requests-pending) | Como se ha llegado a un nodo sin hijo izquierdo ni derecho, se saca el nodo superior de la pila, que es el nodo (3), y lo agregamos a la lista de resultados |
-8 | [List all of my pending signature requests](#list-pending-signature-requests) | Se saca el siguiente nodo de la pila, que es el nodo (2), y lo agregamos a la lista de resultados |
-9 | [Signature history](#signature-history) | Se saca el siguiente nodo de la pila, que es el nodo 1, y lo agregamos a la lista de resultados. |
-10 | [Logout](#logout) | Como se ha terminado de explorar el subárbol derecho del nodo (1) y la pila se encuentra vacía, hemos completado el recorrido inorder. Por lo que la lista de resultados quedaría [1, 3, 2] |
+1 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso1.png "Esta es una imagen de muestra.") | Se comienza por la raíz (valor 1) para luego dirigirse al lado izquierdo siguiendo el inorden|
+2 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso2.png "Esta es una imagen de muestra.") | Luego de dirigirse al subárbol izquierdo se obtiene que este se encuentra vacío (null) |
+3 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso3.png "Esta es una imagen de muestra.") | Por lo que se agrega el nodo raíz (1) a la pila y nos movemos al subárbol de la derecha, siguiendo el orden (inorden) |
+4 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso4.png "Esta es una imagen de muestra.") |Se vuelve a dirigir al subárbol izquierdo del nodo (2) en donde se encuentra el nodo 3, como tanto el lado izquierdo como derecho del nodo 3 se encunetran vacios (null) se agrega (nodo 3) a la pila y se dirige al nodo de la derecha al nodo (2) |
+5 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso5.png "Esta es una imagen de muestra.") | El lado derecho del nodo 2 se encuentra vacío (null) por lo que se agrega a la pila |
+6 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso6.png "Esta es una imagen de muestra.") | Como se ha llegado a un nodo sin hijo izquierdo ni derecho, se saca el nodo superior de la pila, que es el nodo (2), y lo agregamos a la lista de resultados |
+7 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso7.png "Esta es una imagen de muestra.") | Se saca el siguiente nodo de la pila, que es el nodo (3), y lo agregamos a la lista de resultados |
+8 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso8.png "Esta es una imagen de muestra.") | Se saca el siguiente nodo de la pila, que es el nodo 1, y lo agregamos a la lista de resultados. |
+9 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso9.png "Esta es una imagen de muestra.") | Como se ha terminado de explorar el subárbol derecho del nodo (1) y la pila se encuentra vacía, hemos completado el recorrido inorder. Por lo que la lista de resultados quedaría [1, 3, 2] |
 
 
 ## LeetCode
