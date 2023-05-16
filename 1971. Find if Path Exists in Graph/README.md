@@ -18,21 +18,21 @@ Ejemplo 1:
 
 ```bash
    Entrada: n = 3, aristas = [[0,1],[1,2],[2,0]], origen = 0, destino = 2 
-   Salida
-   :verdadero
+   Salida: verdadero
    Explicación: Hay dos caminos desde el vértice 0 al vértice 2 : 
    - 0 → 1 → 2 
    - 0 → 2
 ```
 
-Explicación
+Ejemplo 2:
 
 ```bash
-    CBTInserter cBTInserter = new CBTInserter([1, 2]);
-    cBTInserter.insert(3);  // return 1
-    cBTInserter.insert(4);  // return 2
-    cBTInserter.get_root(); // return [1, 2, 3, 4]
+   Entrada: n = 6, aristas = [[0,1],[0,2],[3,5],[5,4],[4,3]], origen = 0, destino = 5 
+   Salida: falso
+   Explicación: No hay ruta desde el vértice 0 al vértice 5.
 ```
+
+Explicación
 
 ## Restricciones ⚠️	
 
