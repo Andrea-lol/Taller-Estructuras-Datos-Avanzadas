@@ -36,18 +36,14 @@ Explicación
 
 ## Restricciones ⚠️	
 
-* El número de nodos en el árbol estará en el rango ```bash
-        [1, 1000].```
-
-*  ```bash
-    0 <= Node.val <= 5000```
-
-*  ```bash root``` es un árbol binario completo.
-
-*  ```bash
-    0 <= val <= 5000```
-
-* Se realizarán como máximo ```bash 10^4``` llamadas a ```bash insert``` y ```bash get_root```.
+* 1 <= n <= 2 * 105
+* 0 <= edges.length <= 2 * 105
+* edges[i].length == 2
+* 0 <= ui, vi <= n - 1
+* ui != vi
+* 0 <= source, destination <= n - 1
+* No hay bordes duplicados.
+* No hay bordes propios.
     
 ## LeetCode
 **[919. Complete Binary Tree Inserter]** de la **[LeetCode]**
