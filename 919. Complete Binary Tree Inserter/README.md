@@ -53,6 +53,16 @@ Explicación
 
 * Se realizarán como máximo ```bash 10^4``` llamadas a ```bash insert``` y ```bash get_root```.
 
+#Explicación de la solucion
+
+La clase CBTInserter implementa la funcionalidad requerida. Al inicializar un objeto de esta clase con el nodo raíz del árbol completo, se crea una cola queue que se utiliza para realizar un seguimiento de los nodos que deben ser insertados.
+
+El método insert toma un valor val y lo inserta en el árbol manteniendo la completitud. Primero, se obtiene el primer nodo de la cola queue, que representa el padre del nuevo nodo a insertar. Si el padre no tiene un hijo izquierdo, se inserta el nuevo nodo como su hijo izquierdo. De lo contrario, se inserta como el hijo derecho y se elimina el padre de la cola queue. Luego, se agrega el nuevo nodo a la cola queue y se devuelve el valor del padre.
+
+El método get_root simplemente devuelve el nodo raíz del árbol.
+
+El método populate_queue se utiliza para inicializar la cola queue con los nodos del árbol completo. Recorre el árbol utilizando un recorrido por niveles y agrega los nodos que tienen al menos uno de sus hijos faltantes a la cola queue.
+
 En la siguiente tabla se describe los pasos que se realizan:
 
 Paso | Imagen | Descripción
