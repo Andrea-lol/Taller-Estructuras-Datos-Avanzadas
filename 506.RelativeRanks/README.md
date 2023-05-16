@@ -4,16 +4,16 @@
 
 ## Descripción Y Contexto
 
-Un árbol binario completo es un árbol binario en el que todos los niveles, excepto posiblemente el último, están completamente llenos y todos los nodos están lo más a la izquierda posible.
+Se le da una matriz de números enteros scorede tamaño n, donde score[i]es el puntaje del atleta en una competencia. Se garantiza que todas las puntuaciones son únicas .ith
 
-Diseñe un algoritmo para insertar un nuevo nodo en un árbol binario completo manteniéndolo completo después de la inserción.
+Los atletas se colocan en función de sus puntajes, donde el atleta del lugar tiene el puntaje más alto, el atleta del lugar tiene el puntaje más alto, y así sucesivamente. La ubicación de cada atleta determina su rango:1st 2nd 2nd
 
-## Implemente la clase CBTInserter
+* El lugar donde se encuentra el rango del atleta .1st"Gold Medal"
+* El lugar donde se encuentra el rango del atleta .2nd"Silver Medal"
+* El lugar donde se encuentra el rango del atleta .3rd"Bronze Medal"
+* Para el puesto del atleta del puesto, su rango es su número de puesto (es decir, el puesto del atleta del puesto es ).4thnthxth"x"
 
-* ```bash CBTInserter(TreeNode root)``` Inicializa la estructura de datos con la ```bash raíz``` del árbol binario completo.
-* ```bash int insert(int v)``` Inserta un ```bash TreeNode``` en el árbol con el valor ```bash Node.val == val``` para que el árbol permanezca completo y devuelve el valor del padre del ```bash TreeNode``` insertado.
-* ```bash TreeNode get_root()``` Devuelve el nodo raíz del árbol.
-
+Devuelve una matriz answerde tamaño ndonde answer[i]está el rango del atleta.ith
 
 ## Ejemplos 📋
 
