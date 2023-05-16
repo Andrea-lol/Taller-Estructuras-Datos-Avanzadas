@@ -4,11 +4,11 @@
 
 ## Descripción Y Contexto
 
-Hay un gráfico bidireccional "n" con vértices, donde cada vértice está etiquetado de "0" a "n - 1" ( inclusive ). Los bordes del gráfico se representan como una matriz de enteros 2D edges, donde cada uno denota un borde bidireccional entre vértice y vértice . Cada par de vértices está conectado como máximo por una arista, y ningún vértice tiene una arista en sí mismo.edges[i] = [ui, vi]uivi
+Hay un gráfico bidireccional "n" con vértices, donde cada vértice está etiquetado de "0" a "n - 1" ( inclusive ). Los bordes del gráfico se representan como una matriz de enteros 2D edges "edges", donde cada uno denota un borde bidireccional entre vértice y vértice . Cada par de vértices está conectado como máximo por una arista, y ningún vértice tiene una arista en sí mismo. "edges[i] = [ui, vi]" "ui" "vi".
 
-Desea determinar si existe una ruta válida de vértice sourcea vértice destination.
+Desea determinar si existe una ruta válida de vértice "source" a vértice "destination".
 
-Dado edgesy los enteros n, sourcey destination, devuelven truesi hay una ruta válida de sourcea destination, o falsede lo contrario .
+Dado "edges" y los enteros "n", "source" y "destination", devuelven "true" si hay una ruta válida de "source" a "destination", o "false" de lo contrario .
 
 ## Ejemplos 📋
 
