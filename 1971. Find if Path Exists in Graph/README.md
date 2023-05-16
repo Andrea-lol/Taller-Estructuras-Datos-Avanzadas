@@ -14,7 +14,7 @@ Dado "edges" y los enteros "n", "source" y "destination", devuelven "true" si ha
 
 Ejemplo 1:
 
-![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
+![Imagen de Evidencia]([https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/919.%20Complete%20Binary%20Tree%20Inserter/img/lc-treeinsert.jpg](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/1971.%20Find%20if%20Path%20Exists%20in%20Graph/img/Ejemplo1.png) "Esta es una imagen de muestra.")
 
 ```bash
    Entrada: n = 3, aristas = [[0,1],[1,2],[2,0]], origen = 0, destino = 2 
