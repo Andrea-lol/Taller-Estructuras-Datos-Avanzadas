@@ -39,17 +39,15 @@ En la siguiente tabla se describe los pasos que se realizan:
 
 Paso | Imagen | Descripción
 :--: | :--: | -- |
-1 | ![Imagen de Evidencia]( "Esta es una imagen de muestra.") | Se comienza con el nodo raíz, que es el número 5.|
-2 | ![Imagen de Evidencia]( "Esta es una imagen de muestra.") | El siguiente valor en la lista es el 1. Este menor que 5, por lo que se coloca como el hijo izquierdo del nodo raíz |
-3 | ![Imagen de Evidencia]( "Esta es una imagen de muestra.") | El siguiente en la lista es el 4. Este es mayor que 1, por lo que lo colocamos como el hijo derecho del nodo con valor 1 |
-4 | ![Imagen de Evidencia]( "Esta es una imagen de muestra.") | Sigue el valor en la lista que es null, lo que indica un nodo vacío. Por lo que, no hay más nodos para agregar en el subárbol derecho del nodo con valor 4 |
-5 | ![Imagen de Evidencia]( "Esta es una imagen de muestra.") | Se regresa al nodo de valor 1 y se avanza al subárbol derecho del nodo raíz |
-6 | ![Imagen de Evidencia]( "Esta es una imagen de muestra.") | El siguiente valor en la lista corresponde a  null, por lo que no hay más nodos para agregar en el subárbol derecho del nodo con valor 1 |
-7 | ![Imagen de Evidencia]( "Esta es una imagen de muestra.") | Se regresa al nodo raíz con valor 5 y avanzamos al subárbol derecho |
-8 | ![Imagen de Evidencia]( "Esta es una imagen de muestra.") | Le sigue el valor 3. Este menor que 5, por lo que lo colocamos como el hijo izquierdo del nodo con valor 4 |
-9 | ![Imagen de Evidencia]( "Esta es una imagen de muestra.") | Sigue en la lista el valor 6. Es mayor que 5, por lo que lo colocamos como el hijo derecho del nodo raíz |
-10 | ![Imagen de Evidencia]( "Esta es una imagen de muestra.") | El siguiente valor en la lista es null. Por lo que, no hay más nodos para agregar en el subárbol derecho del nodo con valor 6 |
-11 | ![Imagen de Evidencia]( "Esta es una imagen de muestra.") | Luego de explorar todos los nodos se puede ver que hay una violación de la propiedad del árbol de búsqueda binario. El nodo raíz tiene un valor de 5, pero su hijo derecho tiene un valor de 4, lo que no cumple con la propiedad de que todos los nodos en el subárbol derecho deben tener valores mayores |
+1 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/98.%20Validate%20Binary%20Search%20Tree/img/Paso1.png "Esta es una imagen de muestra.") | Se comienza con el nodo raíz, que es el número 5.|
+2 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/98.%20Validate%20Binary%20Search%20Tree/img/2.png "Esta es una imagen de muestra.") | El siguiente valor en la lista es el 1. Este menor que 5, por lo que se coloca como el hijo izquierdo del nodo raíz |
+3 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/98.%20Validate%20Binary%20Search%20Tree/img/3.png "Esta es una imagen de muestra.") | El siguiente en la lista es el 4. Este es mayor que 1, por lo que lo colocamos como el hijo derecho del nodo con valor 1 |
+4 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/98.%20Validate%20Binary%20Search%20Tree/img/4.png "Esta es una imagen de muestra.") | Sigue el valor en la lista que es null, lo que indica un nodo vacío. Por lo que, no hay más nodos para agregar en el subárbol derecho del nodo con valor 4 |
+5 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/98.%20Validate%20Binary%20Search%20Tree/img/5.png "Esta es una imagen de muestra.") | Se regresa al nodo raíz con valor 5 y avanzamos al subárbol derecho |
+6 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/98.%20Validate%20Binary%20Search%20Tree/img/6.png "Esta es una imagen de muestra.") | Le sigue el valor 3. Este es menor que 5, por lo que lo colocamos como el hijo izquierdo del nodo con valor 4 |
+7 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/98.%20Validate%20Binary%20Search%20Tree/img/7.png "Esta es una imagen de muestra.") | Sigue en la lista el valor 6. Es mayor que 5, por lo que lo colocamos como el hijo derecho del nodo raíz |
+8 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/98.%20Validate%20Binary%20Search%20Tree/img/8.png "Esta es una imagen de muestra.") | El siguiente valor en la lista es null. Por lo que, no hay más nodos para agregar en el subárbol derecho del nodo con valor 6 |
+9 | Luego de explorar todos los nodos se puede ver que hay una violación de la propiedad del árbol de búsqueda binario. El nodo raíz tiene un valor de 5, pero su hijo derecho tiene un valor de 4, lo que no cumple con la propiedad de que todos los nodos en el subárbol derecho deben tener valores mayores |
 
 ## LeetCode
 **[98. Validate Binary Search Tree]** de la **[LeetCode]**
