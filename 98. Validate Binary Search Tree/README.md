@@ -4,7 +4,7 @@
 
 ## Descripción Y Contexto
 
-Dada la ``` raíz``` de un árbol binario, determine si es un árbol de búsqueda binario (BST) válido.
+Dada la ```raíz``` de un árbol binario, determine si es un árbol de búsqueda binario (BST) válido.
 
 Un BST válido se define de la siguiente manera:
 
@@ -12,18 +12,16 @@ Un BST válido se define de la siguiente manera:
 * El subárbol derecho de un nodo contiene solo nodos con claves mayores que la clave del nodo.
 * Los subárboles izquierdo y derecho también deben ser árboles de búsqueda binarios.
 
-## Ejemplos 📋
+## Restricciones ⚠️	
 
-Ejemplo 1:
+* El número de nodos en el árbol estará en el rango ```bash
+        [1, 10^4].```
 
-![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/98.%20Validate%20Binary%20Search%20Tree/img/lc-treeinsert.jpg "Esta es una imagen de muestra.")
+*  ```bash -231 <= Node.val <= 231 - 1```
 
-```bash
-    $ Input: root = [2,1,3]
-    $ Output: true
-```
+## Ejemplo 📋
 
-Ejemplo 2
+Ejemplo 1
 
 ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/98.%20Validate%20Binary%20Search%20Tree/img/tree2.jpg "Esta es una imagen de muestra.")
 
@@ -33,12 +31,8 @@ Ejemplo 2
     $ Explication: El valor del nodo raíz es 5 pero el valor de su hijo derecho es 4.
 ```
 
-## Restricciones ⚠️	
+## Explicación
 
-* El número de nodos en el árbol estará en el rango ```bash
-        [1, 10^4].```
-
-*  ```bash -231 <= Node.val <= 231 - 1```
 
 ## LeetCode
 **[98. Validate Binary Search Tree]** de la **[LeetCode]**
