@@ -34,13 +34,6 @@ Salida: falso
 Explicación: No hay ruta desde el vértice 0 al vértice 5.
 ```
 
-## Explicación:
-
-* Se usa un arreglo de booleanos para poder verificar si los valores se encuentran en el grafo.
-* Se usa el hashset para aplicar el bfs y poder recorrer el grafo por los "edges" (conexiones entre nodos).
-* Se valida si hay un enlace "edge" para que retorne true.
-* Se hace uso de colas, cuando se recorra todo el grafo y se verifique que cada nodo fue recorrido, se imprimirá si existe un camino desde el nodo inicial hasta el final, si existe conexión entre ellos, retornara true, si no, false.
-
 ## Restricciones ⚠️	
 
 * 1 <= n <= 2 * 105
@@ -51,6 +44,13 @@ Explicación: No hay ruta desde el vértice 0 al vértice 5.
 * 0 <= source, destination <= n - 1
 * No hay bordes duplicados.
 * No hay bordes propios.
+
+## Explicación:
+
+* Se usa un arreglo de booleanos para poder verificar si los valores se encuentran en el grafo.
+* Se usa el hashset para aplicar el bfs y poder recorrer el grafo por los "edges" (conexiones entre nodos).
+* Se valida si hay un enlace "edge" para que retorne true.
+* Se hace uso de colas, cuando se recorra todo el grafo y se verifique que cada nodo fue recorrido, se imprimirá si existe un camino desde el nodo inicial hasta el final, si existe conexión entre ellos, retornara true, si no, false.
     
 ## LeetCode
 **[1971. Find if Path Exists in Graph]** de la **[LeetCode]**
