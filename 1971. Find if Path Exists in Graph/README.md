@@ -34,7 +34,7 @@ Salida: falso
 Explicación: No hay ruta desde el vértice 0 al vértice 5.
 ```
 
-Explicación
+## Explicación
 
 ## Restricciones ⚠️	
 
