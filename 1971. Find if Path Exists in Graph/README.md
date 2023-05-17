@@ -53,7 +53,7 @@ Explicación: No hay ruta desde el vértice 0 al vértice 5.
 * No hay bordes propios.
     
 ## LeetCode
-**[919. Complete Binary Tree Inserter]** de la **[LeetCode]**
+**[1971. Find if Path Exists in Graph]** de la **[LeetCode]**
 
-[919. Complete Binary Tree Inserter]: https://leetcode.com/problems/complete-binary-tree-inserter/description/
+[919. Complete Binary Tree Inserter]: https://leetcode.com/problems/find-if-path-exists-in-graph/description/
 [LeetCode]: https://leetcode.com
