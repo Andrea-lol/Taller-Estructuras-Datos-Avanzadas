@@ -14,39 +14,64 @@ Tenga en cuenta que no puede cambiar ninguno de los dos árboles o el nodo de de
 
 ## Restricciones ⚠️	
 
-* El número de nodos en el árbol está en el rango ```bash
-        [0, 100].```
+```
+* El número de nodos en el árbol está en el rango [1, 104].
+* Los valores de los nodos del árbol son únicos.
+* El nodo de destino es un nodo del árbol original y no es nulo.
+```
 
-*  ```bash -100 <= Node.val <= 100 ```
+## Ejemplo 1️
 
-## Ejemplo 1️⃣
-
-![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/1.png "Esta es una imagen de muestra.")
+![e1](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/assets/80435721/5650e8b4-8e60-4a21-b473-4096aa1a4901)
 
 Ejemplo 1:
 
-```bash
-    $ Input: root = [1,null,2,3]
-    $ Output: [1,3,2]
+```
+Input: tree = [7,4,3,null,null,6,19], target = 3
+Output: 3
+Explanation: In all examples the original and cloned trees are shown. The target node is a green node from the original tree. The answer is the yellow node from the cloned tree.
 ```
 
-### Explicación 
+## Ejemplo 2
 
-En este ejemplo se muestra cómo el algoritmo recorre el árbol en inorden (izquierdo, raíz, derecho), visitando los nodos en el siguiente orden: 1, 3, 2. La pila tiene como objetivo mantener un seguimiento de los nodos visitados y la lista de resultados se va construyendo a medida que se visitan los nodos en el orden correcto.
+![e2](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/assets/80435721/4035a799-1ad0-4349-9dea-dc491aa32539)
+
+Ejemplo 2:
+
+```
+Input: tree = [7], target =  7
+Output: 7
+```
+
+## Ejemplo 3
+
+![e3](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/assets/80435721/c1e75191-e992-4fa9-8fe6-57be4e3ea533)
+
+Ejemplo 3:
+
+```
+Input: tree = [8,null,6,null,5,null,4,null,3,null,2,null,1], target = 4
+Output: 4
+```
+
+### Explicación de la solución
+
+En esta solución, primero manejamos los casos base donde el árbol original o clonado es nulo. Si el nodo original es igual al nodo de destino, devolvemos el nodo clonado correspondiente.
+
+De lo contrario, recorremos recursivamente los subárboles izquierdo y derecho de los árboles originales y clonados. Comprobamos si el nodo de destino se encuentra en el subárbol izquierdo haciendo una llamada recursiva a getTargetCopy con los hijos izquierdos de ambos árboles. Si se encuentra, devolvemos el resultado. De lo contrario, repetimos el proceso para el subárbol derecho.
+
+Si el nodo de destino no se encuentra en ninguno de los subárboles, devolvemos nulo.
 
 En la siguiente tabla se describe los pasos que se realizan:
 
 Paso | Imagen | Descripción
 :--: | :--: | -- |
-1 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso1.png "Esta es una imagen de muestra.") | Se comienza por la raíz (valor 1) para luego dirigirse al lado izquierdo siguiendo el inorden|
-2 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso2.png "Esta es una imagen de muestra.") | Luego de dirigirse al subárbol izquierdo se obtiene que este se encuentra vacío (null) |
-3 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso3.png "Esta es una imagen de muestra.") | Por lo que se agrega el nodo raíz (1) a la pila y nos movemos al subárbol de la derecha, siguiendo el orden (inorden) |
-4 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso4.png "Esta es una imagen de muestra.") |Se vuelve a dirigir al subárbol izquierdo del nodo (2) en donde se encuentra el nodo 3, como tanto el lado izquierdo como derecho del nodo 3 se encunetran vacios (null) se agrega (nodo 3) a la pila y se dirige al nodo de la derecha al nodo (2) |
-5 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso5.png "Esta es una imagen de muestra.") | El lado derecho del nodo 2 se encuentra vacío (null) por lo que se agrega a la pila |
-6 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso6.png "Esta es una imagen de muestra.") | Como se ha llegado a un nodo sin hijo izquierdo ni derecho, se saca el nodo superior de la pila, que es el nodo (2), y lo agregamos a la lista de resultados |
-7 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso7.png "Esta es una imagen de muestra.") | Se saca el siguiente nodo de la pila, que es el nodo (3), y lo agregamos a la lista de resultados |
-8 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso8.png "Esta es una imagen de muestra.") | Se saca el siguiente nodo de la pila, que es el nodo 1, y lo agregamos a la lista de resultados. |
-9 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso9.png "Esta es una imagen de muestra.") | Como se ha terminado de explorar el subárbol derecho del nodo (1) y la pila se encuentra vacía, hemos completado el recorrido inorder. Por lo que la lista de resultados quedaría [1, 3, 2] |
+1 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso1.png "Esta es una imagen de muestra.") | Comparamos el nodo actual del árbol original con el nodo objetivo. Si son iguales, devolvemos el nodo correspondiente en el árbol clonado. En este caso, el nodo actual es 7 y el objetivo es 3, por lo que no son iguales. |
+2 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso2.png "Esta es una imagen de muestra.") | Recursivamente, llamamos a la función getTargetCopy para el subárbol izquierdo. En este caso, el subárbol izquierdo del nodo actual es el nodo 4 en el árbol original y el nodo 4 en el árbol clonado |
+3 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso3.png "Esta es una imagen de muestra.") | Continuamos recursivamente hacia abajo en el subárbol izquierdo hasta que encontremos el nodo objetivo. En este caso, el nodo objetivo es 3 y no se encuentra en el subárbol izquierdo del nodo 4 en el árbol original. |
+4 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso4.png "Esta es una imagen de muestra.") |Regresamos a la función anterior y llamamos a la función getTargetCopy para el subárbol derecho del nodo actual. El subárbol derecho del nodo actual es el nodo 3 en el árbol original y el nodo 3 en el árbol clonado. |
+5 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso5.png "Esta es una imagen de muestra.") | Continuamos recursivamente hacia abajo en el subárbol derecho hasta encontrar el nodo objetivo. En este caso, el nodo objetivo es 3 y se encuentra en el subárbol derecho del nodo 3 en el árbol original. |
+6 | ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/94.%20Binary%20Tree%20Inorder%20Traversal/img/Paso6.png "Esta es una imagen de muestra.") | Devolvemos la referencia al nodo 3 en el árbol clonado. |
 
 
 ## LeetCode
