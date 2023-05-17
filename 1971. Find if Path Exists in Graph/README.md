@@ -4,7 +4,7 @@
 
 ## Descripción Y Contexto:
 
-Hay un gráfico bidireccional "n" con vértices, donde cada vértice está etiquetado de "0" a "n - 1" ( inclusive ). Los bordes del gráfico se representan como una matriz de enteros 2D edges "edges", donde cada uno denota un borde bidireccional entre vértice y vértice . Cada par de vértices está conectado como máximo por una arista, y ningún vértice tiene una arista en sí mismo. "edges[i] = [ui, vi]" "ui" "vi".
+Hay un grafo bidireccional "n" con vértices, donde cada vértice está etiquetado de "0" a "n - 1" ( inclusive ). Los bordes del grafo se representan como una matriz de enteros 2D edges "edges", donde cada uno denota un borde bidireccional entre vértice y vértice . Cada par de vértices está conectado como máximo por una arista, y ningún vértice tiene una arista en sí mismo. "edges[i] = [ui, vi]" "ui" "vi".
 
 Desea determinar si existe una ruta válida de vértice "source" a vértice "destination".
 
