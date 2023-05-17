@@ -2,7 +2,7 @@
 
 ![Version 1.0](https://img.shields.io/badge/version-1.0.-blue.svg) 
 
-## Descripción Y Contexto
+## Descripción Y Contexto:
 
 Hay un gráfico bidireccional "n" con vértices, donde cada vértice está etiquetado de "0" a "n - 1" ( inclusive ). Los bordes del gráfico se representan como una matriz de enteros 2D edges "edges", donde cada uno denota un borde bidireccional entre vértice y vértice . Cada par de vértices está conectado como máximo por una arista, y ningún vértice tiene una arista en sí mismo. "edges[i] = [ui, vi]" "ui" "vi".
 
@@ -34,7 +34,7 @@ Salida: falso
 Explicación: No hay ruta desde el vértice 0 al vértice 5.
 ```
 
-## Explicación
+## Explicación:
 
 ## Restricciones ⚠️	
 
