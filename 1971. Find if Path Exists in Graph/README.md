@@ -45,6 +45,10 @@ Explicación: No hay ruta desde el vértice 0 al vértice 5.
 * No hay bordes duplicados.
 * No hay bordes propios.
 
+## Código Implementado:
+
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/1971.%20Find%20if%20Path%20Exists%20in%20Graph/img/CodigoLeetcode.png "Esta es una imagen de muestra.")
+
 ## Explicación:
 
 * Se usa un arreglo de booleanos para poder verificar si los valores se encuentran en el grafo.
