@@ -55,6 +55,10 @@ Explicación: No hay ruta desde el vértice 0 al vértice 5.
 * Se usa el hashset para aplicar el bfs y poder recorrer el grafo por los "edges" (conexiones entre nodos).
 * Se valida si hay un enlace "edge" para que retorne true.
 * Se hace uso de colas, cuando se recorra todo el grafo y se verifique que cada nodo fue recorrido, se imprimirá si existe un camino desde el nodo inicial hasta el final, si existe conexión entre ellos, retornara true, si no, false.
+
+## Explicación Gráfica:
+
+
     
 ## LeetCode
 **[1971. Find if Path Exists in Graph]** de la **[LeetCode]**
