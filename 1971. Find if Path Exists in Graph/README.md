@@ -59,6 +59,8 @@ Explicación: No hay ruta desde el vértice 0 al vértice 5.
 ## Explicación Gráfica:
 
 ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/1971.%20Find%20if%20Path%20Exists%20in%20Graph/img/EJ%201.jpg "Esta es una imagen de muestra.")
+
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/1971.%20Find%20if%20Path%20Exists%20in%20Graph/img/EJ%202.jpg "Esta es una imagen de muestra.")
     
 ## LeetCode
 **[1971. Find if Path Exists in Graph]** de la **[LeetCode]**
