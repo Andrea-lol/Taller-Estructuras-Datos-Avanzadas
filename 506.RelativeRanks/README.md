@@ -43,11 +43,7 @@ Ejemplo 2:
 
 * Se realizarán como máximo ```bash 10^4``` llamadas a ```bash insert``` y ```bash get_root```.
 
-Explicación Gráfica:
-
-```bash
-
-```
+## Explicación Gráfica:
     
 ## LeetCode
 **[506. Relative Ranks]** de la **[LeetCode]**
