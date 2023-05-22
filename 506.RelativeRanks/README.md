@@ -34,13 +34,6 @@ Ejemplo 2:
    $ Output: ["Gold Medal","5","Bronze Medal","Silver Medal","4"]
    $ Explanation: The placements are [1st, 5th, 3rd, 2nd, 4th].
 ```
-
-Explicación
-
-```bash
-
-```
-
 ## Restricciones ⚠️	
 
 * n == score.length
@@ -49,6 +42,12 @@ Explicación
 * Todos los valores en scoreson únicos .
 
 * Se realizarán como máximo ```bash 10^4``` llamadas a ```bash insert``` y ```bash get_root```.
+
+Explicación Gráfica:
+
+```bash
+
+```
     
 ## LeetCode
 **[506. Relative Ranks]** de la **[LeetCode]**
