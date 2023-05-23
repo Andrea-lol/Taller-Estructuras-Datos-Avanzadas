@@ -43,6 +43,10 @@ Ejemplo 2:
 
 * Se realizarán como máximo ```bash 10^4``` llamadas a ```bash insert``` y ```bash get_root```.
 
+## Código Implementado:
+
+
+
 ## Explicación Gráfica:
 
 ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/506.RelativeRanks/img/RUBRICA.png "Esta es una imagen de muestra.")
