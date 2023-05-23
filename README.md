@@ -17,6 +17,7 @@ El taller consiste en resolver los 10 problemas dados en sus respectivas platafo
 * [Andrea Villamil] 
 * [Nicolás Morales]
 * [Joel Lizarazo]
+* [Deiby Garcia]
 
 [Andrea Villamil]: https://github.com/Andrea-lol
 [Nicolás Morales]: https://github.com/NicolasMorales54
