@@ -45,7 +45,7 @@ Ejemplo 2:
 
 ## Código Implementado:
 
-
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/506.RelativeRanks/img/CodigoLeetCoce.png "Esta es una imagen de muestra.")
 
 ## Explicación Gráfica:
 
