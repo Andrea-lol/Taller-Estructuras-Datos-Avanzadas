@@ -48,6 +48,12 @@ Ejemplo 2:
 ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/506.RelativeRanks/img/RUBRICA.png "Esta es una imagen de muestra.")
 
 ![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/506.RelativeRanks/img/EJ%201.jpg "Esta es una imagen de muestra.")
+
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/506.RelativeRanks/img/EJ%202.jpg "Esta es una imagen de muestra.")
+
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/506.RelativeRanks/img/EJ%203.jpg "Esta es una imagen de muestra.")
+
+![Imagen de Evidencia](https://github.com/Andrea-lol/Taller-Estructuras-Datos-Avanzadas/blob/main/506.RelativeRanks/img/EJ%204.jpg "Esta es una imagen de muestra.")
     
 ## LeetCode
 **[506. Relative Ranks]** de la **[LeetCode]**
